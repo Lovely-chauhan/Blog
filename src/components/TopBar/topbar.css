@@ -1,0 +1,76 @@
+.top{
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    display: flex;
+    z-index: 999;
+    
+}
+
+.topleft,.topright{
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.topIcon{
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer ;
+    color: #444;
+    transition: transform .1s;
+}
+
+ .topIcon:hover{
+    transform: scale(1.5);
+ }
+.searchIcon{
+    cursor: pointer;
+    color: #666;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: transform .1s;
+    
+}
+.searchIcon:hover{
+    transform: scale(1.5);
+    text-decoration: underline;
+ }
+
+
+
+.topcentre{
+    flex: 6;
+}
+
+.toplist{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ 
+
+
+.listItems{
+    font-size: 18px;
+    cursor: pointer;
+     margin-right: 20px;
+     font-weight: 300;
+     color: grey;
+     transition: transform .1s;
+     
+    
+    }
+.listItems:hover{
+    
+    text-decoration: underline;
+    border-radius: 10px;
+    transform: scale(1.5);
+    
+}
+
